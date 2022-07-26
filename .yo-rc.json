@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "project-management-tool",
+    "libraryId": "bccca28b-66c5-4884-9140-8ab78f0841b4",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Project Management Tool",
+    "solutionShortDescription": "Project Management Tool description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

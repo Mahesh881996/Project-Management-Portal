@@ -1,0 +1,39 @@
+.form-container {
+    background: #f5f5f5;
+    position: relative;
+    grid-template: 100% / 50% 50%;
+    margin:0px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+  }
+.formSection{
+    width:100%;
+    margin-top:1%;
+}
+.formSection .col-md-6{
+    margin-top:10px;
+}
+.form-label{
+    font-weight: 700;
+    font-size: 16px;
+}
+.ButtonContent{
+    justify-content: center;
+}
+.ButtonContent button:first-child{
+    margin-right: 10px;
+}
+.ButtonContent button{
+    width: auto;
+}
+body.swal2-shown > [aria-hidden="true"] {
+    transition: 0.1s filter;
+    filter: blur(10px);
+}
+.swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation {
+    background: rgba(0,0,0,.5)!important;
+}
+body.swal2-no-backdrop .swal2-container{
+    background-color: rgba(0,0,0,.5)!important;
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "project-management-tool-client-side-solution",
+    "id": "bccca28b-66c5-4884-9140-8ab78f0841b4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Project Management Tool description"
+      },
+      "longDescription": {
+        "default": "Project Management Tool description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "project-management-tool Feature",
+        "description": "The feature that activates elements of the project-management-tool solution.",
+        "id": "b274d3ec-feb9-4250-80d6-30ff5d2ec40c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/project-management-tool.sppkg"
+  }
+}
